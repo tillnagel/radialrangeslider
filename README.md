@@ -1,5 +1,5 @@
 # radialrangeslider
-A radial range slider
+A radial range slider for Processing.
 
 ![Animated Radial Range Slider Example](https://github.com/tillnagel/radialrangeslider/blob/master/radialrangeslider.gif)
 
