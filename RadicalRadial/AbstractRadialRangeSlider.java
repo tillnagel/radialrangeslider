@@ -103,10 +103,10 @@ public abstract class AbstractRadialRangeSlider {
     float checkAngle = MathUtils.getAngleBetween(center, check);
 
     // Highlight if pos is close to edge 1
-    highlight1 = Math.abs(angle1 - checkAngle) < angleDistToEdges && insideCircle;
+    highlight1 = insideCircle && Math.abs(angle1 - checkAngle) < angleDistToEdges;
 
     // Highlight if pos is close to edge 2
-    highlight2 = Math.abs(angle2 - checkAngle) < angleDistToEdges && insideCircle;
+    highlight2 = insideCircle && Math.abs(angle2 - checkAngle) < angleDistToEdges;
 
     if (highlight1 && highlight2) {
       // If in proximity of both, only highlight the nearer one
