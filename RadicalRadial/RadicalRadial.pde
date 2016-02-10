@@ -1,4 +1,13 @@
-AbstractRadialRangeSlider raSlider;
+/*
+ * Simple RadialRangeSlider example.
+ * 
+ * Drag start or end handle to adapt the range, or drag the whole segment to move.  
+ * Press + or - to set the whole range (i.e. the circle segment).
+ *
+ * (c) 2016 Till Nagel, tillnagel.com (see license.txt)
+ */
+ 
+ AbstractRadialRangeSlider raSlider;
 
 void setup() {
   size(500, 500);

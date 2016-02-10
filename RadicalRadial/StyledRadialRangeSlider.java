@@ -1,3 +1,8 @@
+/*
+ * StyledRadialRangeSlider
+ * 
+ * (c) 2016 Till Nagel, tillnagel.com (see license.txt)
+ */
 import processing.core.PApplet;
 
 public class StyledRadialRangeSlider extends AbstractRadialRangeSlider {
